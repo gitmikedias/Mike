@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mappings xmlns="http://dozermapper.github.io/schema/bean-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dozermapper.github.io/schema/bean-mapping https://dozermapper.github.io/schema/bean-mapping.xsd">
+    <configuration>
+        <wildcard>false</wildcard>
+    </configuration>
+    <mapping>
+        <class-a>coalpha.CoAlpha</class-a>
+        <class-b>generated_1524561554359.Countries</class-b>
+        <field>
+            <a>capital</a>
+            <b>country[0].capital</b>
+        </field>
+        <field>
+            <a>name</a>
+            <b>country[0].name</b>
+        </field>
+        <field>
+            <a>region</a>
+            <b>country[0].region</b>
+        </field>
+        <field>
+            <a>languages</a>
+            <b>country</b>
+        </field>
+        <field>
+            <a>languages[0].nativeName</a>
+            <b>country[0].language</b>
+        </field>
+    </mapping>
+</mappings>
